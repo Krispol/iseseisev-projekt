@@ -1,0 +1,22 @@
+{
+    "short_name": "Portfoolio",
+    "name": "Kristjan Põldmets | Portfoolio",
+    "description": "Eesrakenduste arendamine - Iseseisev projekt.",
+    "icons": [
+      {
+        "src": "192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#FFF",
+    "display": "standalone",
+    "scope": "",
+    "theme_color": "#FFF"
+  }

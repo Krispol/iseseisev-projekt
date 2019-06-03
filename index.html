@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta author="Kristjan Põldmets">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <script src="index.js" defer></script>
+  <title>Kristjan Põldmets | Portfoolio</title>
+</head>
+<body>
+  <header>
+    <div class="mainclass">
+      <div class="center-block">
+        <div id="header">
+          <div class="pictures">
+            <img id="mina" class="pic" src="pics\mina.jpg" alt="Kristjan Põldmets" />
+          </div>
+          <h1>Kristjan Põldmets</h1>
+          <p>Programmeerimishuviline</p>
+        </div>
+      </div>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3 style="text-align:center">- Minust -</h3>
+        <p>Olen TLÜ informaatika üliõpilane ning huvitun kõigest tehnoloogilisest. Senised arenduskeeled, millega olen kokku puutunud on: C, C#, Java, HTML, CSS, ASP.NET, PHP, SQL, Python, JavaScript, JSON. <br></br> Lisaks huvitun kolmemõõtmelisest modelleerimisest ning mängude loomisest. Seda senini läbi rakenduste Blender 3d ja Unity. <br></br> Enne ülikooli astumist on mul läbitud Team Treehouse veebikursuseid algeliste veebilehtede valmistamiseks ning omandatud tarkvara testimise kogemust SMIT'is.</p>
+      </section>
+      <section id="secondary">
+        <h3 style="text-align:center">- Kontakt -</h3>
+        <ul class="contact-info">
+          <li class="facebook"><a href="https://www.facebook.com/kristjan.poldmets">Facebook</a></li>
+          <li class="phone"><a href="tel:+372 590 120 92">+372 566 28172</a></li>
+          <li class="mail"><a href="mailto:poldmets@tlu.ee">poldmets@tlu.ee</a></li>
+        </ul>
+      </section>
+    </div>
+      <div class="slideshow-container">
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 4</div>
+         <img src="pics/img1.png" style="width:100%">
+         <div class="text">Blender 3d</div>
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">2 / 4</div>
+         <img src="pics/img2.png" style="width:100%">
+         <div class="text">Esimene 3D auto</div>
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">3 / 4</div>
+         <img src="pics/img3.png" style="width:100%">
+         <div class="text">Eesrakenduste töö nr. 1</div>
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">4 / 4</div>
+         <img src="pics/img4.png" style="width:100%">
+         <div class="text">Esimene Unity katsetus</div>
+       </div>
+
+      </div>
+      <br>
+      <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+       <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+      <div class="center-block">
+        <p><br><br>Lehe kujundus:</p>
+        <label class="switch">
+          <input type="checkbox" id="color" class="off" onclick="toggleColor(this)" />
+          <span class="slider round"></span>
+        </label>
+        <br><br>
+
+        <!-- <a href="mang/minesweeper.html" data-transition="slideup" data-rel="popup" data-transition="pop" class="my-tooltip-btn ui-btn ui-alt-icon ui-nodisc-icon ui-btn-inline ui-icon-info ui-btn-icon-notext" title="Siin on näidustatud tooltip. Kliki selle peale, et avada ka Popup-aknana" data-rel="popup">JS Popup (katki)</a> -->
+        <button id="myBtn">Käivita minesweeper</button>
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Siia on plaanis sobitada mäng sisse</p>
+          </div>
+
+        </div>
+      </div>
+
+      <footer>
+        <button class="a2hs">Add to Homescreen</button>
+        <p>&copy; Kristjan Põldmets 2019</p>
+      </footer>
+    <script type="text/javascript" src="a2hs.js" defer></script>
+  </div>
+</body>
+</html>
