@@ -10,5 +10,3 @@ Kuvatõmmis: http://greeny.cs.tlu.ee/~krispol/2019/Eesrakenduste_arendus/iseseis
 
 Viide lehele: http://greeny.cs.tlu.ee/~krispol/2019/Eesrakenduste_arendus/iseseisev-projekt/
 
-
-<img id="exclamation" class="pic" src="pics\exclamation.jpg" alt="!" />
